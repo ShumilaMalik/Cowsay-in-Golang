@@ -4,14 +4,18 @@ import (
 	"fmt"
 	"bufio"
 	"os"
+	//"strings"
+	//"regexp"
 	//"strconv"
 )
+const inputSize int = 60
 
 func main() {
 	scanner := bufio.NewScanner(os.Stdin)
-	scanner.Scan()
-	input := scanner.Text()
-	fmt.Printf("Hallo Techstarter: %q", input)
-
-
+	for scanner.Scan() {
+		fmt.Println(scanner.Text()) // Println will add back the final '\n'
+	}
+	if err := scanner.Err(); err != nil {
+		fmt.Fprintln(os.Stderr, "reading standard input:", err)
+	}
 }
