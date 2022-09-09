@@ -15,16 +15,18 @@ enter your Insput between ""  example: "Hello, how are you ?"
 and press enter
 
 this is, what u shoul see!
- _ _ _ _ _ _ _ _ _ _ _ _ _ _
-/                            \
-  "Hello, how are you?"
-\                            /
- - - - - - - - - - - - - - -                    \
-                         \
-                            .---.
-                           |o_o  |
-                           |:_/  |
-                          //   \  \
-                         (|     |  )
-                        /'\_    /' \
-                        \___)==(___/
+
+  _ _ _ _ _ _ _ _ _ _ _ _ _ _
+ /                           \
+   "Hello, how are you?"
+ \                           /
+   - - - - - - - - - - - - -
+                       \
+                         .---.
+                         |o_o |
+                         |:_/ |
+                       //   \  \
+                      (|     |  )
+                     /'|_    /' \
+                     \___)==(___/
+
